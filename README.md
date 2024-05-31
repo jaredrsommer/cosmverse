@@ -1,4 +1,4 @@
-# Cøsmverse
+# Cøsmverse ===> Event 16 NFT Market
 [![App](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml/badge.svg)](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml)
 
 Cross-chain #NFT marketplace on 
@@ -8,9 +8,9 @@ Auction, mint & explore the amazing world of nonfungible assets.
 
 
 
-![Cosmverse Logo (Final) Banner 3t](https://user-images.githubusercontent.com/79812965/139874498-591e3fe8-7f21-4ddb-aac4-f1d3c73aeeec.png)
 
 
+![background-home2](https://github.com/jaredrsommer/cosmverse/assets/51533784/81c2c19e-0e7c-417b-a616-4eb55ffd75c2)
 
 
 
