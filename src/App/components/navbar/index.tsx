@@ -21,7 +21,8 @@ import {
 import { AccountButton } from "../account-button";
 import { ColorModeSwitcher } from "../../ColorModeSwitcher";
 import { Link as ReactRouterLink } from "react-router-dom"
-import cosmverseLogo from "../../assets/cosmverse_logo.svg";
+import cosmverseLogo from "../../assets/tokens/juno.svg";
+
 
 export function Navbar(): JSX.Element {
   const { isOpen, onToggle } = useDisclosure();
@@ -29,14 +30,14 @@ export function Navbar(): JSX.Element {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue('white.900', 'cyan.900')}
+        bg={useColorModeValue('white.900', 'black.900')}
         color={useColorModeValue('white.200', 'white.200')}
         minH={'60px'}
         py={{ base: 2 }}
         px={{ base: 4 }}
         borderBottom={1}
         borderStyle={'solid'}
-        borderBottomColor={useColorModeValue('cyan.900', 'white.200')}
+        borderBottomColor={useColorModeValue('black.900', 'white.200')}
         align={'center'}>
         <Flex
           flex={{ base: 0, md: 'auto' }}
@@ -82,18 +83,21 @@ export function Navbar(): JSX.Element {
 
 const DesktopNav = () => {
   return (
-    <Stack direction={'row'} spacing={6} display={{ base: 'none', md: 'inline-flex' }}>
+    <Stack direction={'row'} spacing={5} display={{ base: 'none', md: 'inline-flex' }}>
       <Link
         as={ReactRouterLink}
         to="/gallery"
         p={1.5}
+        verticalAlign={"middle"}
+        height="var(--chakra-sizes-8)"
         fontSize={'sm'}
-        fontFamily={'mono'}
-        fontWeight={'semibold'}
+        fontWeight={500}
+        borderRadius={'25px'}
+        bg='black.900'
         _hover={{
           color: useColorModeValue('light', 'dark'),
         }}>
-        Explore
+        Gallery
       </Link>
       <Button
         as={ReactRouterLink}
@@ -102,13 +106,26 @@ const DesktopNav = () => {
         height="var(--chakra-sizes-8)"
         fontSize={'sm'}
         fontWeight={500}
-        borderRadius={'50px'}
-        color={'white'}
-        bg='cyan.900'
+        borderRadius={'25px'}
+        bg='black.900'
         _hover={{
-          bg: 'gray.500',
+          color: useColorModeValue('light', 'dark'),
         }}>
         Create
+      </Button>
+      <Button
+        as={ReactRouterLink}
+        to="/account"
+        verticalAlign={"middle"}
+        height="var(--chakra-sizes-8)"
+        fontSize={'sm'}
+        fontWeight={500}
+        borderRadius={'25px'}
+        bg='black.900'
+        _hover={{
+          color: useColorModeValue('light', 'dark'),
+        }}>
+        My NFT's
       </Button>
     </Stack>
   );
@@ -117,7 +134,7 @@ const DesktopNav = () => {
 const MobileNav = () => {
   return (
     <Stack
-      bg={useColorModeValue('white.200', 'cyan.900')}
+      bg={useColorModeValue('white.200', 'black.900')}
       p={4}
       display={{ md: 'none' }}>
       {NAV_ITEMS.map((navItem) => (
@@ -141,7 +158,7 @@ const MobileNavItem = ({ label, href }: NavItem) => {
         }}>
         <Text
           fontWeight={600}
-          color={useColorModeValue('cyan.900', 'white.200')}>
+          color={useColorModeValue('black.900', 'white.200')}>
           {label}
         </Text>
       </Flex>
@@ -162,5 +179,9 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'Create',
     href: '/create',
+  },
+  {
+    label: 'Account',
+    href: '/account',
   },
 ];
