@@ -1,4 +1,4 @@
-# Cøsmverse ===> Event 16 NFT Market
+# Cøsmverse ===> Hera Galleria
 [![App](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml/badge.svg)](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml)
 
 Cross-chain #NFT marketplace on 
