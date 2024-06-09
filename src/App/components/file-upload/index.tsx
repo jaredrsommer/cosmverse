@@ -27,7 +27,7 @@ export function FileUpload(props: DropzoneProps): JSX.Element {
       <Icon
         mx="auto"
         boxSize={12}
-        color={useColorModeValue("gray.200", "gray.200")}
+        color={useColorModeValue("gray.900", "gray.200")}
         stroke="currentColor"
         fill="none"
         viewBox="0 0 48 48"
@@ -65,7 +65,7 @@ export function FileUpload(props: DropzoneProps): JSX.Element {
       </Flex>
       <Text
         fontSize="xs"
-        color={useColorModeValue("gray.500", "gray.500")}
+        color={useColorModeValue("gray.900", "gray.500")}
       >
         PNG, JPG, JPEG, SVG or GIF up to 10MB
       </Text>
@@ -84,14 +84,14 @@ export function FileUpload(props: DropzoneProps): JSX.Element {
     <Flex
       fontSize="sm"
       fontFamily="mono"
-      color={useColorModeValue("black.200", "whiteAlpha.900")}
+      color={useColorModeValue("black.900", "whiteAlpha.900")}
     >
       {acceptedFileItems} 
     </Flex>
   );
 
-  const acceptDropColor = useColorModeValue("gray.300", "gray.500");
-  const normalDropColor = useColorModeValue("gray.300", "gray.500");
+  const acceptDropColor = useColorModeValue("gray.500", "gray.500");
+  const normalDropColor = useColorModeValue("gray.500", "gray.500");
 
   return (
     <Box>

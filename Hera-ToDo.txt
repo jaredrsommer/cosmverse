@@ -1,0 +1,32 @@
+--- Hera Marketplace Initial Launch To-Do List ---
+
+/// marketing
+- Socials(medium, x, tg, discord, temp landing page)
+- Medium Article Explaining Hera Marketplace
+- x for marketing
+- tg and discord for Cust Svc, etc....
+- create and deploy a Temp Domain Landing Page
+
+/// front end work
+- Complete initial front-end redesign and branding.
+- Finalize color palette ,logo, font, and text-logo
+- Apply the above.
+- Refine layout of galleria cards
+- Scrolling added to global layout
+
+/// back end work
+- finalize fee/mint/burn structure for Market place
+- write/audit/deploy initial contract on testnet
+- validate and test contract integration with front-end
+- test all possible user interactions
+
+/// Pre-Launch
+- Small Test drive by several people in the community via testnet to aquire feedback
+- Handle any problems and/or changes from feeback.
+- Test Again
+- Announcement
+- Deploy and Launch Event 16 as Initial Collection.
+
+/// Pre/Post-Launch
+- Work on Flex-Stack Conversion for a more performant system
+- Future Features - simple token swap, nft staking, nft / token bridge

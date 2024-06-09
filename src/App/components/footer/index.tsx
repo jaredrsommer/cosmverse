@@ -42,7 +42,7 @@ export const SocialButton = ({
         justifyContent={'center'}
         transition={'background 0.3s ease'}
         _hover={{
-          bg: useColorModeValue('cyan.900', 'cyan.900'),
+          bg: useColorModeValue('black.900', 'pink.20'),
         }}>
         <VisuallyHidden>{label}</VisuallyHidden>
         {children}
@@ -55,7 +55,7 @@ export const SocialButton = ({
       <Box
         borderTop={1}
         borderStyle={'solid'}
-        borderTopColor={useColorModeValue('cyan.900', 'white.200')}>
+        borderTopColor={useColorModeValue('pink.20', 'white.200')}>
         <Container
           as={Stack}
           maxW={'7xl'}

@@ -31,7 +31,7 @@ export function NftSection({ title }: NftSectionProps): JSX.Element {
         </Text>
         <Button p={0}
           rightIcon={<ChevronRightIcon />}
-          color={useColorModeValue("cyan.900", "white")}
+          color={useColorModeValue("gray.900", "white")}
           variant="link"
           fontSize="sm"
           fontFamily="mono"

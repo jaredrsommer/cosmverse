@@ -183,7 +183,7 @@ export const AccountToken = () => {
       </Center>
     );
 
-    const borderColor = useColorModeValue('cyan.900', 'white.200');
+    const borderColor = useColorModeValue('pink.20', 'white.200');
     const priceModal = (
       <Modal
         closeOnOverlayClick={false}

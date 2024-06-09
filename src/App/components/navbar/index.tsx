@@ -21,7 +21,12 @@ import {
 import { AccountButton } from "../account-button";
 import { ColorModeSwitcher } from "../../ColorModeSwitcher";
 import { Link as ReactRouterLink } from "react-router-dom"
+<<<<<<< HEAD
 import cosmverseLogo from "../../assets/tokens/juno.svg";
+=======
+import junoLogo from "../../assets/tokens/heracm.svg";
+import heraLogo from "../../assets/hera_text.svg";
+>>>>>>> a079383 (Adding Initial Branding)
 
 
 export function Navbar(): JSX.Element {
@@ -59,7 +64,15 @@ export function Navbar(): JSX.Element {
             _hover={{
               textDecoration: 'none',
             }}>
-             <Image src={cosmverseLogo} alt="cosmverse logo" height={10} />
+             <Image src={junoLogo} alt="juno logo" height={10} />
+          </Link>
+          <Link
+            as={ReactRouterLink}
+            to="/landing"
+            _hover={{
+              textDecoration: 'none',
+            }}>
+             <Image src={heraLogo} alt="hera text logo" height={10} width={56}/>
           </Link>
         </Flex>
 
@@ -97,7 +110,11 @@ const DesktopNav = () => {
         _hover={{
           color: useColorModeValue('light', 'dark'),
         }}>
+<<<<<<< HEAD
         Gallery
+=======
+        Galleria
+>>>>>>> a079383 (Adding Initial Branding)
       </Link>
       <Button
         as={ReactRouterLink}
@@ -173,7 +190,7 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Gallery',
+    label: 'Galleria',
     href: '/gallery',
   },
   {
