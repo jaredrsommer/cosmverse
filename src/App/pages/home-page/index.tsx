@@ -6,12 +6,7 @@ import { Box, Flex, Stack } from '@chakra-ui/react';
 import { FaDiscord, FaGithub, FaMedium, FaTelegram, FaTwitter } from 'react-icons/fa';
 
 import { SocialButton } from '../../components';
-<<<<<<< HEAD
-import  cosmverseHomepage  from '../../assets/homepage.png';
-=======
 import  heraHomepage  from '../../assets/hera_bg2.jpeg';
->>>>>>> a079383 (Adding Initial Branding)
-
 
 export const HomePage = () => {
   return (
