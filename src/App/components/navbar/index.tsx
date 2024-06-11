@@ -21,13 +21,8 @@ import {
 import { AccountButton } from "../account-button";
 import { ColorModeSwitcher } from "../../ColorModeSwitcher";
 import { Link as ReactRouterLink } from "react-router-dom"
-<<<<<<< HEAD
-import cosmverseLogo from "../../assets/tokens/juno.svg";
-=======
 import junoLogo from "../../assets/tokens/heracm.svg";
 import heraLogo from "../../assets/hera_text.svg";
->>>>>>> a079383 (Adding Initial Branding)
-
 
 export function Navbar(): JSX.Element {
   const { isOpen, onToggle } = useDisclosure();
