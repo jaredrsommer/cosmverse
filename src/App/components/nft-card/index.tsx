@@ -4,7 +4,7 @@ import {
   Divider,
   Flex,
   Image,
-  Text,
+  //Text,
 } from "@chakra-ui/react";
 import * as React from "react";
 import { NftInfo } from "../../services/type";
