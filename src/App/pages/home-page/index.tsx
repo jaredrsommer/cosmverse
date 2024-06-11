@@ -17,26 +17,6 @@ export const HomePage = () => {
       <Box w='100vw' h='100vh' backgroundImage={heraHomepage} zIndex='-1' position='relative' backgroundSize='cover'>
       </Box>
 
-<<<<<<< HEAD
-
-
-
-
-        <Stack direction={["column", "row"]}  zIndex='1' position='absolute' bottom={['25vh', '10vh']}>
-         
-          <SocialButton label={'Twitter'} href={'https://twitter.com/Event__16'} width='40px' height='40px' backgroundColor='white'>
-            <FaTwitter />
-          </SocialButton>
-
-          <SocialButton label={'Medium'} href={'https://medium.com/@event_16'} width='40px' height='40px' backgroundColor='white'>
-            <FaMedium />
-          </SocialButton>
-          <SocialButton label={'Telegram'} href={'https://t.me/event_16'} width='40px' height='40px' backgroundColor='white'>
-              <FaTelegram />
-          </SocialButton>
-          <SocialButton label={'Github'} href={'https://github.com/Jaredrsommer/cosmverse'} width='40px' height='40px' backgroundColor='white'>
-=======
-
         <Stack direction={["column", "row"]}  zIndex='1' position='absolute' bottom={['25vh', '10vh']}>
          
           <SocialButton label={'Twitter'} href={'https://twitter.com/HeraGalleria'} width='40px' height='40px' backgroundColor='white'>
