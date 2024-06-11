@@ -105,11 +105,7 @@ const DesktopNav = () => {
         _hover={{
           color: useColorModeValue('light', 'dark'),
         }}>
-<<<<<<< HEAD
-        Gallery
-=======
         Galleria
->>>>>>> a079383 (Adding Initial Branding)
       </Link>
       <Button
         as={ReactRouterLink}
