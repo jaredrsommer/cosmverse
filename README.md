@@ -1,5 +1,4 @@
-# Cøsmverse ===> Event 16 NFT Market
-[![App](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml/badge.svg)](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml)
+# Cøsmverse ===> Hera Galleria
 
 Cross-chain #NFT marketplace on 
 Juno.
@@ -7,12 +6,7 @@ Juno.
 Auction, mint & explore the amazing world of nonfungible assets. 
 
 
-
-
-
-![background-home2](https://github.com/jaredrsommer/cosmverse/assets/51533784/81c2c19e-0e7c-417b-a616-4eb55ffd75c2)
-
-
+![hera_bg1](https://github.com/jaredrsommer/cosmverse/assets/51533784/dfa50b8c-8965-4d7b-9dd8-7be797f18e3b)
 
 
 
