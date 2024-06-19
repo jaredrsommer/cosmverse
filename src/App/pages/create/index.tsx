@@ -160,8 +160,8 @@ export const Create = () => {
               fontSize={'md'}
               fontWeight="semibold"
               borderRadius={'50px'}
-              color={'white'}
-              bg="pink.500"
+              color={'black'}
+              bg="gray.500"
               _hover={{
                 bg: "gray.500",
               }}>

@@ -1,7 +1,7 @@
 import * as React from "react"
 import {
-  Text,
-  Box,
+  // Text,
+  // Box,
   Grid,
   StackDivider,
   VStack,
@@ -10,18 +10,18 @@ import { NftSection } from "../../components"
 
 export const Landing = () => {
   return (
-    <Grid m={5}>
-      <Box mt={5} mb={8}>
+    <Grid m={4}>
+{/*      <Box mt={5} mb={8}>
         <Text
           fontFamily="mono"
-          fontSize="lg"
-          fontWeight="600">
-          Welcome to Cosmverse, NFTs on JUNO.
+          fontSize="xlg"
+          fontWeight="900">
+          Hera Galleria
         </Text>
-      </Box>
+      </Box>*/}
 
       <VStack
-        divider={<StackDivider borderColor="cyan.900"/>}
+        divider={<StackDivider borderColor="pink.20"/>}
         spacing={4}
         align="stretch"
       >

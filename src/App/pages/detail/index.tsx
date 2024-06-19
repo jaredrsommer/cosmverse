@@ -30,7 +30,7 @@ import {
 } from "../../services";
 import { config } from "../../../config";
 import userLogo from "../../assets/user-default.svg";
-import cosmverseLogo from "../../assets/cosmverse.jpg";
+import heraLogo from "../../assets/tokens/heracm.svg";
 import { TransactionLink } from "../../components";
 
 interface DetailParams {
@@ -109,7 +109,7 @@ export const Detail = () => {
       </Center>
     );
 
-    const borderColor = useColorModeValue('cyan.900', 'white.200');
+    const borderColor = useColorModeValue('pink.20', 'white.200');
     return (
       <Box m={5}>
         {!nft ? loadingSkeleton : (
@@ -124,11 +124,11 @@ export const Detail = () => {
                 justifyContent="center"
                 alignItems="center">
                 <Image
-                  bgGradient="linear(to-r, cyan.200, white.200)"
+                  bgGradient="linear(to-r, pink.20, white.200)"
                   roundedTop="md"
                   boxSize="420px"
                   fit="cover"
-                  fallbackSrc={cosmverseLogo}
+                  fallbackSrc={heraLogo}
                   src={nft.image}
                   alt={nft.name} />
               </Flex>
@@ -176,7 +176,7 @@ export const Detail = () => {
                             fontSize="md"
                             fontWeight="semibold"
                             _hover={{
-                              color: "cyan.900",
+                              color: "pink.20",
                             }}
                             as={ReactRouterLink}
                             to={`/account/${owner}`}>{formatAddress(owner!)}</Link>

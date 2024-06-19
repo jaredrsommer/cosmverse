@@ -69,7 +69,7 @@ export function AccountButton(): JSX.Element {
       borderRadius="50px"
       height="var(--chakra-sizes-8)"
       marginTop={"4px"}
-      borderColor={useColorModeValue('cyan.900', 'white.200')}
+      borderColor={useColorModeValue('pink.20', 'white.200')}
       onClick={connectKeplr}
     >
       Connect wallet
@@ -82,7 +82,7 @@ export function AccountButton(): JSX.Element {
         p={1}
         rounded={6}
         _hover={{
-          bg: useColorModeValue('gray.500', 'cyan.900'),
+          bg: useColorModeValue('gray.500', 'pink.20'),
         }}>
         <Link
           fontSize={'md'}

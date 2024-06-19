@@ -25,7 +25,7 @@ export function Pagination({
 
   const PagButton = (props: any) => {
     const activeStyle = {
-      bg: useColorModeValue("cyan.900", "cyan.900"),
+      bg: useColorModeValue("pink.20", "pink.20"),
     };
     return (
       <chakra.button
@@ -34,7 +34,7 @@ export function Pagination({
         py={2}
         rounded="50px"
         onClick={props.onClick}
-        color={useColorModeValue("cyan.900", "white.200")}
+        color={useColorModeValue("pink.20", "white.200")}
         fontWeight="semibold"
         fontSize="md"
         opacity={props.disabled && 0.6}

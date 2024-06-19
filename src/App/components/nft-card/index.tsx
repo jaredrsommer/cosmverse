@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import * as React from "react";
 import { NftInfo } from "../../services/type";
-import cosmverseLogo from "../../assets/cosmverse.jpg";
+import defaultNftImage from "../../assets/Event16_439.jpeg";
 
 interface NftCardProps {
   readonly nft: NftInfo;
@@ -23,28 +23,28 @@ export function NftCard({ nft }: NftCardProps): JSX.Element {
     >
       <Box w="full">
         <Image
-          bgGradient="linear(to-r, green.200, pink.500)"
+          bgGradient="linear(to-r, gray.900, pink.20)"
           roundedTop="lg"
           h={56}
           w="full"
           fit="cover"
           src={nft.image}
-          fallbackSrc={cosmverseLogo}
+          fallbackSrc={defaultNftImage}
           alt={nft.title}
         />
-        <Box px={4} bg="gray.500" roundedBottom="md">
+        <Box px={4} bg="pink.20" roundedBottom="md">
           <Box py={2}>
             <chakra.p
               mt={1}
-              fontSize="xs"
-              color="gray.200"
+              fontSize="s"
+              color="gray.900"
             >
-              @{nft.user}
+              Owner: {nft.user}
             </chakra.p>
             <chakra.h1
-              color={"white"}
+              color={"gray.900"}
               fontWeight="bold"
-              fontSize="2xl"
+              fontSize="xl"
               overflow="hidden"
               textOverflow="ellipsis"
               whiteSpace="nowrap"
@@ -55,21 +55,21 @@ export function NftCard({ nft }: NftCardProps): JSX.Element {
             <chakra.p
               mt={1}
               fontSize="xs"
-              color="white"
+              color="gray.900"
             >
-              {nft.total === 1 ? "One edition" : `${nft.total} editions`}
+              {nft.total === 1 ? "1 Listed For Sale" : `${nft.total} Listed For Sale`}
             </chakra.p>
           </Box>
           <Divider />
           <Box
-            py={4}
-            color="white"
+            py={3}
+            color="gray.900"
           >
-            <Text fontSize="xs">
+{/*            <Text fontSize="xs">
               Price
-            </Text>
-            <chakra.h1 fontWeight="semibold" fontSize="sm">
-              {nft.price}
+            </Text>*/}
+            <chakra.h1 fontWeight="bold" fontSize="sm">
+              {"Price: " + nft.price}
             </chakra.h1>
           </Box>
         </Box>
