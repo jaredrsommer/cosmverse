@@ -4,14 +4,7 @@ Juno.
 
 Auction, mint & explore the amazing world of nonfungible assets. 
 
-
-
-
-
-![background-home2](https://github.com/jaredrsommer/cosmverse/assets/51533784/81c2c19e-0e7c-417b-a616-4eb55ffd75c2)
-
-
-
+![hera_bg2](https://github.com/jaredrsommer/cosmverse/assets/51533784/0de1d66b-c83c-4e0f-99b9-c8f23375b132)
 
 
 ## Setup
