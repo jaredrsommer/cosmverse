@@ -21,12 +21,8 @@ import {
 import { AccountButton } from "../account-button";
 import { ColorModeSwitcher } from "../../ColorModeSwitcher";
 import { Link as ReactRouterLink } from "react-router-dom"
-<<<<<<< HEAD
-import cosmverseLogo from "../../assets/tokens/juno.svg";
-=======
 import junoLogo from "../../assets/tokens/heracm.svg";
 import heraLogo from "../../assets/hera_text.svg";
->>>>>>> a079383 (Adding Initial Branding)
 
 
 export function Navbar(): JSX.Element {
@@ -35,7 +31,7 @@ export function Navbar(): JSX.Element {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue('white.900', 'black.900')}
+        bg={useColorModeValue('gray.200', 'black.900')}
         color={useColorModeValue('white.200', 'white.200')}
         minH={'60px'}
         py={{ base: 2 }}
@@ -110,11 +106,7 @@ const DesktopNav = () => {
         _hover={{
           color: useColorModeValue('light', 'dark'),
         }}>
-<<<<<<< HEAD
-        Gallery
-=======
         Galleria
->>>>>>> a079383 (Adding Initial Branding)
       </Link>
       <Button
         as={ReactRouterLink}

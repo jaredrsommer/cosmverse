@@ -4,10 +4,10 @@ import {
   Divider,
   Flex,
   Image,
-  Text,
 } from "@chakra-ui/react";
 import * as React from "react";
 import { NftInfo } from "../../services/type";
+// import { NftTrait } from "./nft-trait";
 import defaultNftImage from "../../assets/Event16_439.jpeg";
 
 interface NftCardProps {
