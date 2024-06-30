@@ -72,7 +72,7 @@ export const HomePage = () => {
 
   const animation = prefersReducedMotion ? undefined : `${fadeIn} 5s ease-in-out`;
 
-  return (
+ return (
     <React.Fragment>
       <Flex flexDirection='column' alignItems={['flex-end', 'center']}>
 
@@ -97,10 +97,10 @@ export const HomePage = () => {
             Your browser does not support the video tag.
           </video>
 
-<<<<<<< HEAD
+{/*<<<<<<< HEAD
         <Stack direction={["column", "row"]}  zIndex='1' position='absolute' bottom={['25vh', '10vh']}>
          
-=======
+=======*/}
           {showImage && (
             <Box
               as="img"
@@ -120,7 +120,7 @@ export const HomePage = () => {
 
 
         <Stack direction={["column", "row"]} zIndex='1' position='absolute' bottom={['25vh', '10vh']}>
->>>>>>> 02a06a1 (Changed to nodej's 22)
+{/*>>>>>>> 02a06a1 (Changed to nodej's 22)*/}
           <SocialButton label={'Twitter'} href={'https://twitter.com/HeraGalleria'} width='40px' height='40px' backgroundColor='white'>
             <FaTwitter />
           </SocialButton>
