@@ -1,7 +1,6 @@
 # Cøsmverse ===> Hera Galleria
 
-Cross-chain #NFT marketplace on 
-Juno.
+Cross-chain #NFT marketplace on Juno.
 
 Auction, mint & explore the amazing world of nonfungible assets. 
 
@@ -11,7 +10,7 @@ Auction, mint & explore the amazing world of nonfungible assets.
 
 
 ## Setup
-! Use node 16.20.2
+! Use node 22
 ```
 git clone https://github.com/jaredrsommer/cosmverse.git
 touch .env.local
