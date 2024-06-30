@@ -24,13 +24,14 @@ import { Link as ReactRouterLink } from "react-router-dom"
 import junoLogo from "../../assets/tokens/heracm.svg";
 import heraLogo from "../../assets/hera_text.svg";
 
+
 export function Navbar(): JSX.Element {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
     <Box>
       <Flex
-        bg={useColorModeValue('white.900', 'black.900')}
+        bg={useColorModeValue('gray.200', 'black.900')}
         color={useColorModeValue('white.200', 'white.200')}
         minH={'60px'}
         py={{ base: 2 }}

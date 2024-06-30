@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
 } from "react-router-dom"
 
-import {ChakraProvider,} from "@chakra-ui/react"
+import {ChakraProvider, Container, Flex} from "@chakra-ui/react"
 import {Navbar} from './components/navbar';
 
 import {HomePage} from "./pages"
@@ -16,6 +16,7 @@ import {Account} from "./pages"
 import {Landing} from './pages';
 import {SdkProvider} from "./services/client/wallet"
 import {config} from "../config";
+
 import theme from "./theme"
 
 export const App = () => (
@@ -25,15 +26,15 @@ export const App = () => (
         <Router>
         <Navbar /> {/* This line includes the NavBar in your app */}
         <Switch>
+
           <Route exact path="/" component={HomePage} />
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/create" component={Create} />
           <Route exact path="/account" component={Account} />
           <Route exact path="/landing" component={Landing} />
-          {/* ... other routes */}
-        </Switch>
 
-          </Router>
+        </Switch>      
+        </Router>
     </SdkProvider>
   </ChakraProvider>
 )
