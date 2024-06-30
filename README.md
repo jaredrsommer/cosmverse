@@ -13,7 +13,7 @@ Auction, mint & explore the amazing world of nonfungible assets.
 ## Setup
 ! Use node 16.20.2
 ```
-git clone https://github.com/CosmosContracts/Cosmverse.git
+git clone https://github.com/jaredrsommer/cosmverse.git
 touch .env.local
 ```
 
